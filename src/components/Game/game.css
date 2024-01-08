@@ -1,0 +1,24 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+  
+.game-info {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.description{
+  padding: 5px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .game{
+    flex-direction: column;
+  }
+}
